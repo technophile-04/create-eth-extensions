@@ -25,7 +25,7 @@ export const lightTheme = `{
           ".link:hover": {
             opacity: "80%",
           },
-        }`
+        }`;
 
 export const darkTheme = `{
           primary: "#8B5CF6",
@@ -55,4 +55,12 @@ export const darkTheme = `{
           ".link:hover": {
             opacity: "80%",
           },
-        }`
+        }`;
+
+export const extendTheme = `
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      },
+      colors: {
+        "custom-blue": "#1E40AF",
+      }`;
