@@ -57,10 +57,11 @@ export const darkTheme = `{
           },
         }`;
 
-export const extendTheme = `
+export const extendTheme = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       },
       colors: {
         "custom-blue": "#1E40AF",
-      }`;
+      }
+};
